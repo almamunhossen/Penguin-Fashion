@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 15px;
+    width: 20%;
+    margin-left: 10%;
+    padding: 0 20px;
+    }
+   .img{
+       
+    }
+    .main_manu{
+        position: relative;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px rgba(0,0,0,.2);    
+    }
+    .main_manu ul{
+    display: inline-flex;
+    list-style:none;
+    color:rgb(0, 0, 0);
+    }
+    .main_manu ul li{
+    width:120px;
+    margin: 10px;
+    padding: 10px;
+    }
+    .main_manu ul li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    }
+    .active, .main_manu ul li:hover{
+    background:#c8dd74;
+    border-radius:3px;
+    padding: 10px;
+    
+    }
+    
+    .main_manu .fa{
+    margin-right:5px;
+    }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main-continar{
+   width: 90%;
+   margin: auto;
+}
+h1{
+    font-family: 'Bebas Neue';
+    color: #363958;
+    font-size: 70px;
+}
+.devider-text{
+    font-family: 'Bebas Neue';
+    color: #363958;
+    font-size: 40px;
+    padding: 20px;
+}
+.buy-button a{
+    color: #ffffff;
+}
+.buy-button{
+    background-image: linear-gradient(#A4BC46, #85A019);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: 600;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buy-button:hover{
+    background: #60750b;
+}
+.right-section img{
+    width: 60%;
+    float: right;
+}
+.span-hilterercolor{
+    color: #FABE4C;
+}
+.head-secton{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+.product{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap: 2em;
+    padding: 15px;
+}
+
+.woman-product img{
+    padding: 10%;
+    background-color: #f1f1f1;
+    border-radius: 9px;
+    width: 90%;
+    margin: 5% ;   
+}
+.woman-product{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px #d4d0d0;
+}
+.woman-product h3{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #363958;
+}
+.proudct-price{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin:5%;
+    align-items: center;
+}
+.proudct-price h4{
+    color: #FABE4C;
+    font-size: 30px;
+}
+.woman-product p{
+    padding: 5px;
+}
+.❤️{
+    background-color: #F3F8FB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.❤️❤️ img{
+    width: 50%;
+    margin-left: 20%;
+    padding-left: 1%;
+    
+}
+.❤️❤️❤️ h3{
+    font-size: 35px;
+}
+.❤️❤️❤️ p{
+    font-size: 17px;
+   color: #85A019 ;
+}
+.service-helpsecton{
+    display: grid;
+    grid-template-columns:40% 55%;
+    grid-gap:5%;
+}
+
+.servic-help{
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 5%;
+    display: inline-flex;  
+    justify-content: space-evenly;   
+}
+.sh-1{
+    width: 13%;   
+}
+.sh-1 img{
+    width: 100%;
+}
+.sh-2{
+    width: 80%;
+}
+
+.servic-help{
+    background-color:#ffffff;
+    padding: 5%;
+    box-shadow: 2px 3px 10px #d4d0d0;
+    margin: 5%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-image: linear-gradient(#A4BC46, #85A019);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #60750b;
+  }
+  
+  .contactfrom {
+    border-radius: 5px;
+    padding: 25px;
+    align-items: flex-end;
+    background-color: #ffffff;
+    box-shadow: 2px 3px 10px #d4d0d0;
+  }
+footer{
+    background-color: #60750b;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5% 20%;
+}
+.left-footer p{
+    color:#ffffff;
+    text-align: center;
+}
+.social-icon .fa{
+    color:#883737;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+
+/*medit mobile qurar*/
+@media only screen and (max-width: 600px) {
+    .head-secton{
+        display: grid;
+        grid-template-columns:100%;
+        width: 100%;
+        display: inline-block;
+
+    }
+    .right-section img{
+        width: 100%;
+       
+    }
+    .product{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .service-helpsecton{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    footer{
+        background-color: #60750b;
+        margin-top: 20%;
+       
+    }
+  
