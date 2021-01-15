@@ -12,38 +12,36 @@
     margin-left: 10%;
     padding: 0 20px;
     }
-   .img{
-       
-    }
-    .main_manu{
+
+.main_manu{
         position: relative;
         background-color: #ffffff;
         box-sizing: border-box;
         box-shadow: 0 2px 4px rgba(0,0,0,.2);    
     }
-    .main_manu ul{
+.main_manu ul{
     display: inline-flex;
     list-style:none;
     color:rgb(0, 0, 0);
     }
-    .main_manu ul li{
+.main_manu ul li{
     width:120px;
     margin: 10px;
     padding: 10px;
     }
-    .main_manu ul li a{
+.main_manu ul li a{
     text-decoration:none;
     color:rgb(0, 0, 0);
     text-align: center;
     }
-    .active, .main_manu ul li:hover{
+ .active, .main_manu ul li:hover{
     background:#c8dd74;
     border-radius:3px;
     padding: 10px;
     
     }
     
-    .main_manu .fa{
+.main_manu .fa{
     margin-right:5px;
     }
 
@@ -222,13 +220,6 @@ footer{
     color:#ffffff;
     text-align: center;
 }
-.social-icon .fa{
-    color:#883737;
-    font-size: 20px;
-    text-align: center;
-   
-}
-
 
 /*medit mobile qurar*/
 @media only screen and (max-width: 600px) {
@@ -236,8 +227,6 @@ footer{
         display: grid;
         grid-template-columns:100%;
         width: 100%;
-        display: inline-block;
-
     }
     .right-section img{
         width: 100%;
